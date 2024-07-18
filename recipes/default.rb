@@ -1,5 +1,3 @@
-#
-# Cookbook:: dd-dotnet-uninstaller
-# Recipe:: default
-#
-# Copyright:: 2024, The Authors, All Rights Reserved.
+include_recipe 'datadog::dd-agent'
+include_recipe 'dd-dotnet-uninstaller::trace'
+include_recipe 'dd-dotnet-uninstaller::dotnetuninstaller'

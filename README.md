@@ -1,4 +1,4 @@
 # dd-dotnet-uninstaller
 
-TODO: Enter the cookbook description here.
+An example of being unable to call the dotnetuninstaller with DD APM configured.
 
